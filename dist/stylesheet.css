@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url('/dist/images/background.png');
+  background-image: url('./images/background.png');
   font-family: 'Roboto Condensed', 'sans-serif';
 }
 

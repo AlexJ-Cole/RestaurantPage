@@ -47,7 +47,7 @@ function loadMenu() {
   };
   //adds image
   let classic = document.createElement('img');
-  classic.src = '/dist/images/classic.jpg';
+  classic.src = './images/classic.jpg';
   item1.appendChild(classic);
   //append to grid
   grid.appendChild(item1);
@@ -74,7 +74,7 @@ function loadMenu() {
       hide('m2');
   };
   let cakepop = document.createElement('img');
-  cakepop.src = '/dist/images/cakepop.jpg';
+  cakepop.src = './images/cakepop.jpg';
   item2.appendChild(cakepop);
   grid.appendChild(item2);
 
@@ -100,7 +100,7 @@ function loadMenu() {
       hide('m3');
   };
   let cookie = document.createElement('img');
-  cookie.src = '/dist/images/cookie.jpeg';
+  cookie.src = './images/cookie.jpeg';
   item3.appendChild(cookie);
   grid.appendChild(item3);
 
@@ -126,7 +126,7 @@ function loadMenu() {
       hide('m4');
   };
   let jelly = document.createElement('img');
-  jelly.src = '/dist/images/jelly.jpg';
+  jelly.src = './images/jelly.jpg';
   item4.appendChild(jelly);
   grid.appendChild(item4);
 
@@ -152,7 +152,7 @@ function loadMenu() {
       hide('m5');
   };
   let mummy = document.createElement('img');
-  mummy.src = '/dist/images/mummy.jpg';
+  mummy.src = './images/mummy.jpg';
   item5.appendChild(mummy);
   grid.appendChild(item5);
 
@@ -178,7 +178,7 @@ function loadMenu() {
       hide('m6');
   };
   let vegan = document.createElement('img');
-  vegan.src = '/dist/images/vegan.jpg';
+  vegan.src = './images/vegan.jpg';
   item6.appendChild(vegan);
   grid.appendChild(item6);
 
